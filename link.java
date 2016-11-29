@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Node{
   int data;
-  //Node next;
+  Node next;
 }
 public class Link{
   static Node starter;
