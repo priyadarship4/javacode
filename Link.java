@@ -124,4 +124,28 @@ public static void search()
   for(temp=starter;temp.data!=data;temp=temp.next,i++);
   System.out.println("element found at :"+i);
 }
+public static void sort()
+{
+  Node p1,p2;
+  p1=starter;
+  p2=p1.next;
+  while(p1.next!=null)
+  {
+    p2=p1.next;
+    while(p2!=null)
+    {
+      if(p1.data>p2.data)
+      {
+        System.out.println("sorting the list ........");
+        int temp=p1.data;
+        p1.data=p2.data;
+        p2.data=temp;
+      }
+      p2=p2.next;
+    }
+    p1=p1.next;
+
+  }
+
+}
 }
