@@ -71,7 +71,7 @@ public static void main(String[] args) {
   insertAtpos();
   traverse();
   search();
-
+  traverse();
 }
 public static void insertAtBeginning()
 {
